@@ -8,9 +8,5 @@ I work at Macpac
 
 2: Mayuran Sritharan
 
-<<<<<<< HEAD
 3: Ben Loh - ben
-=======
-3: Ben Loh
 
->>>>>>> origin/master
