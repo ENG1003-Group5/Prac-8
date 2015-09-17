@@ -9,6 +9,10 @@ I work at Macpac
 2: Mayuran Sritharan
 
 <<<<<<< HEAD
+3: Ben Loh - ben is ben
+
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 3: Ben Loh - ben
 =======
@@ -18,3 +22,4 @@ I work at Macpac
 =======
 3: Ben Loh
 >>>>>>> parent of ff6ae31... bens changes
+>>>>>>> master
