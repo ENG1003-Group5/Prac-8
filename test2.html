@@ -1,0 +1,93 @@
+<html>
+    <header>
+       
+
+<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css">
+<script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+        
+    </header>
+
+    <body>
+
+<div class="mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header mdl-layout__header--scroll">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">TEAM EXTREME SICK KENT APP</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      
+      
+    </div>
+  </header>
+  
+  <main class="mdl-layout__content">
+    <div class="page-content">
+        
+        <!----------------------------------------------- Your content goes here------------------------------------------->
+       
+        
+        
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+            mdl-layout--fixed-tabs">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+    </div>
+    <!-- Tabs -->
+    <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+      <a href="#fixed-tab-1" class="mdl-layout__tab is-active">Home</a>
+      <a href="#fixed-tab-2" class="mdl-layout__tab">New Run</a>
+      <a href="#fixed-tab-3" class="mdl-layout__tab">Old Runs</a>
+      <a href="#fixed-tab-3" class="mdl-layout__tab">Settings</a>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+  </div>
+  <main class="mdl-layout__content">
+    <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+      <div class="page-content"><!-- Your content goes here --></div>
+    </section>
+    <section class="mdl-layout__tab-panel" id="fixed-tab-2">
+      <div class="page-content"><!-- Your content goes here --></div>
+    </section>
+    <section class="mdl-layout__tab-panel" id="fixed-tab-3">
+      <div class="page-content"><!-- Your content goes here --></div>
+    </section>
+    <section class="mdl-layout__tab-panel" id="fixed-tab-4">
+      <div class="page-content"><!-- Your content goes here --></div>
+    </section>
+  </main>
+</div>
+
+    </body>
+    
+    <script>
+        
+        function length(){
+            var outputArea = document.getElementById("outputArea");
+            var outString = "";
+            var lengthLookup = document.getElementById("length");
+            var length = Number(lengthLookup.value);
+            var calculated = " " + length * 2.54 + " cm";
+            
+            outputArea.innerText = calculated;
+            
+        }
+      function mass(){
+            var outputAreaTwo = document.getElementById("outputAreaTwo");
+            var outStringTwo = "";
+            var massLookup = document.getElementById("mass");
+            var mass = Number(massLookup.value);
+            var calculated = " " + mass * 0.45359 + " kg";
+            
+            outputAreaTwo.innerText = calculated;
+            
+        }
+        
+    
+    </script>
+
+</html>
